@@ -1,4 +1,4 @@
-<?php
+<?php 
 Route::get('/','HomeController@index');
 Route::get('trangchu','HomeController@index');
 Route::get('home','HomeController@index');
@@ -39,6 +39,8 @@ Route::get('luong','LuongController@getDanhSach');
 	Route::post('suahs','HoSoController@postSua');
 	Route::get('xoahs','HoSoController@getXoa');
 
+	Route::get('chamcong', 'chamcongcontroller@getDanhSach');
+	Route::get('themcc', 'chamcongcontroller@getThem');
+	Route::post('themcc', 'chamcongcontroller@postThem');
 
-
-Auth::routes();
+Auth::routes(); 

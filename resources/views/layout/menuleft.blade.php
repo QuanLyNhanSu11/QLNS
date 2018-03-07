@@ -23,6 +23,7 @@
         </li>
         <li><a href="chucvu"><i class="fa fa-th-large"></i> Quản Lý Chức Vụ</a></li>
         <li><a href="nhanvien"><i class="fa fa-pencil-square-o"></i> Quản Lý Nhân Sự</a></li>
+        <li><a href="chamcong"><i class="fa fa-pencil-square-o"></i> Chấm Công</a></li>
         
         <li class="treeview">
           <a href="#">

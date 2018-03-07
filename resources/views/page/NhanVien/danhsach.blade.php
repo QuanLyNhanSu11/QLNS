@@ -1,10 +1,10 @@
-@extends('layout.index');
+@extends('layout.index')
 @section('content')
 <div class="content-wrapper">
 <section class="content">
 	<div class="container-fluid">		
 		<div class="row">
-      <div class="col-lg-2 col-xs-12">        	
+      <div class="col-lg-12 col-xs-12">        	
 				<div class="box box-block bg-white">
 					<div>
 						<h5 style="color: red; font-size: 25px">Danh sách nhân viên</h5>
@@ -16,7 +16,7 @@
 					                </button>
 					          </span>
 					        </div>
-					        <a type="submit" href="themnv" class="btn btn-primary">Thêm</a>
+					        <a type="submit" href="themcc" class="btn btn-primary">Thêm</a>
 					    </form>
 						
 					</div>
@@ -33,7 +33,7 @@
 									<th>Ngày Sinh</th>
 									<th>Nơi Sinh</th>
 									<th>CMND</th>
-									<th>Ngày Cấp</th>
+									<th>Ngày Cấp</th> 
 									<th>Nơi Cấp</th>
 									<th>Dân Tộc</th>
 									<th>Quốc Tịch</th>
