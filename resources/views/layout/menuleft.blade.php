@@ -34,10 +34,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> Theo Tháng</a></li>
-            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> Quý</a></li>
+            <li><a href="luong"><i class="fa fa-circle-o"></i> Danh Sách</a></li>
             <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Năm</a></li>
-            <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Ngày</a></li>
+            <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Tháng</a></li>
           </ul>
         </li>
         <li class="treeview">

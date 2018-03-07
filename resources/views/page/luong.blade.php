@@ -27,6 +27,7 @@
 					<tr align="center">
 						<th>Mã Lương</th>
 						<th>Tên Nhân Viên</th>
+						<th>Lương Cơ Bản</th>
 						<th>Tổng Lương</th>
 						<th>Tháng</th>
 						<th>Năm</th>
@@ -38,6 +39,7 @@
 					<tr>
 						<td>{{ $l->MaLuong }}</td>
 						<td>{{ $l->HoTen }}</td>
+						<td>{{ $l->LuongCoBan }}</td>
 						<td>{{ $l->TongLuong }}</td>
 						<td>{{ $l->Thang }}</td>
 						<td>{{ $l->Nam }}</td>
