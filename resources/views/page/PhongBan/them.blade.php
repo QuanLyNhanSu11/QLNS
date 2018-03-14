@@ -9,7 +9,7 @@
 		<div class="col-md-6 ">
 				<form action="thempb" method="POST">
 					{{ csrf_field() }}
-					<legend style="color: red; font-size: 25px">Thêm Phòng Ban </legend>
+					<legend style="color: red; font-size: 35px; text-align: center;">Thêm Phòng Ban </legend>
 					
 					<div class="form-group">
 						<label>Tên Phòng Ban</label>

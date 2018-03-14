@@ -9,7 +9,7 @@
 		<div class="col-md-6 ">
 				<form class="form-horizontal" action="themhs" method="POST">
 					{{ csrf_field() }}
-					<legend style="color: red; font-size: 25px">Hồ Sơ Tuyển Dụng</legend>	
+					<legend style="color: red; font-size: 35px; text-align: center;">Hồ Sơ Tuyển Dụng</legend>	
 					<div class="form-group">
 						<label class="col-xs-3 control-label">Họ Tên</label>
 				        <div class="col-xs-5">

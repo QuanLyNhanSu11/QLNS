@@ -7,10 +7,10 @@
       <div class="col-lg-12 col-xs-12">        	
 				<div class="box box-block bg-white">
 					<div>
-						<h5 style="color: red; font-size: 25px">Bảng Chấm Công</h5>
+						<h5 style="color: red; font-size: 35px; text-align: center;">Bảng Chấm Công</h5>
 						<form action="#" method="get" class="form-inline">
 					        <div class="input-group">
-					          <input type="text" name="" class="form-control" placeholder="Search...">
+					          <input width="200px" type="text" name="" class="form-control" placeholder="Search...">
 					          <span class="input-group-btn">
 					                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
 					                </button>

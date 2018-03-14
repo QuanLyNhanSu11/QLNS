@@ -4,17 +4,20 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+use Illuminate\Support\Facades\DB;
+
 class nhanvien extends Model
 {
     protected $table ='nhanvien';
  
-	protected $primaryKey = 'MaNhanVien';
+	protected $primaryKey = 'MaNhanVien'; 
 	 
 	public $timestamps = false;
 	 
-	public function phongban(){
-		return $this->belongsTo('App\phongban','nhanvienmapb','MaPB');
-	}
 	
+	public function dem(){
+		$dem = DB::select("select * from phongban where MaPB not in (SELECT MaPB from nhanvien )");
+		return $dem;
+	}
 
 }

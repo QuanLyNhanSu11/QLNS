@@ -9,7 +9,7 @@
 		<div class="col-md-6 ">
 				<form action="suapb" method="POST">
 					{{ csrf_field() }}
-					<legend>Sửa Phòng Ban </legend>
+					<legend style="color: red; font-size: 35px; text-align: center;">Sửa Phòng Ban </legend>
 					<div class="form-group">
 						<label>Mã Phòng Ban</label>
 						<input class="form-control" value="{{$phongban->MaPB}}" name="MaPB" readonly placeholder="Mã Phòng Ban" />

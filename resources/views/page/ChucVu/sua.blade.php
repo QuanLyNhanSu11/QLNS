@@ -9,7 +9,7 @@
 		<div class="col-md-6 ">
 				<form action="suacv" method="POST">
 					{{ csrf_field() }}
-					<legend>Sửa Chức Vụ </legend>
+					<legend style="color: red; font-size: 35px; text-align: center;">Sửa Chức Vụ </legend>
 					<div class="form-group">
 						<label>Mã Chức Vụ</label>
 						<input class="form-control" value="{{$chucvu->MaCV}}" name="MaCV" readonly placeholder="Mã Chức Vụ" />

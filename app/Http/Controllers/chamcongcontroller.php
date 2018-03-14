@@ -32,10 +32,6 @@ class chamcongcontroller extends Controller
         $chamcong->Nam = 2018;
         $chamcong->save();
         return redirect('chamcong');
-
-
-
-
     }
 }
  

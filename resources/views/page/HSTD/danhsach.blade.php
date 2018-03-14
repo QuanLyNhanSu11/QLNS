@@ -8,7 +8,7 @@
       <div class="col-lg-12 col-xs-12">        	
 				<div class="box box-block bg-white">
 					<div>
-						<h5 style="color: red; font-size: 25px">Hồ Sơ Tuyển Dụng</h5>
+						<h5 style="color: red; font-size: 35px; text-align: center;">Hồ Sơ Tuyển Dụng</h5>
 						<form action="#" method="get" class="form-inline">
 					        <div class="input-group">
 					          <input type="text" name="" class="form-control" placeholder="Search...">
@@ -31,10 +31,6 @@
 									<th>Ngày Sinh</th>
 									<th>Nơi Sinh</th>
 									<th>CMND</th>
-									<th>Ngày Cấp</th>
-									<th>Nơi Cấp</th>
-									<th>Dân Tộc</th>
-									<th>Quốc Tịch</th>
 									<th>TT Hôn Nhân</th>
 									<th>Quê Quán</th>
 									<th>Nơi Ở HT</th>
@@ -43,7 +39,6 @@
 									<th>Năng Khiếu</th>
 									<th>Sức Khỏe</th>
 									<th>Ngày TD</th>
-									<th>Cơ quan TD</th>
 									<th>TDHV</th>
 									<th>Kinh Nghiệm</th>
 								</tr>
@@ -57,10 +52,6 @@
 									<td>{{$hs->NgaySinh}}</td>
 									<td>{{$hs->NoiSinh}}</td>
 									<td>{{$hs->CMND}}</td>
-									<td>{{$hs->NgayCapCmnd}}</td>
-									<td>{{$hs->NoiCap}}</td>
-									<td>{{$hs->DanToc}}</td>
-									<td>{{$hs->QuocTich}}</td>
 									<td>{{$hs->TTHonNhan}}</td>
 									<td>{{$hs->QueQuan}}</td>
 									<td>{{$hs->NoiOHienTai}}</td>
@@ -69,7 +60,6 @@
 									<td>{{$hs->NangKhieu}}</td>
 									<td>{{$hs->SucKhoe}}</td>
 									<td>{{$hs->NgayTuyenDung}}</td>
-									<td>{{$hs->CoQuanTuyenDung}}</td>
 									<td>{{$hs->TDHocVan}}</td>
 									<td>{{$hs->KinhNghiem}}</td>
 									<td>

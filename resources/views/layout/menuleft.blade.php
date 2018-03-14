@@ -35,8 +35,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="luong"><i class="fa fa-circle-o"></i> Danh Sách</a></li>
-            <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Năm</a></li>
-            <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Tháng</a></li>
+            <li><a href="luongadmin"><i class="fa fa-pie-chart"></i> Quản Lý Lương</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -48,8 +47,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Báo Cáo</a></li>
-            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Thống Kê</a></li>
+            <li><a href="baocao"><i class="fa fa-circle-o"></i> Báo Cáo</a></li>
+            <li><a href="thongke"><i class="fa fa-circle-o"></i> Thống Kê</a></li>
           </ul>
         </li>
         <li class="treeview">

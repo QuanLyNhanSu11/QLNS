@@ -6,7 +6,10 @@ Route::get('user','HomeController@indexnguoidung');
 Route::get('trogiup','HomeController@trogiup');
 Route::get('tintuc','HomeController@tintuc');
 Route::get('luong','LuongController@getDanhSach');
+Route::get('baocao','BaoCaoController@getDanhSach');
+Route::get('thongke','ThongKeController@getDanhSach'); 
 
+ 
 	Route::get('chucvu', 'ChucVuController@getDanhSach');
 	Route::get('themcv', 'ChucVuController@getThem');
 	Route::post('themcv', 'ChucVuController@postThem');
@@ -21,6 +24,13 @@ Route::get('luong','LuongController@getDanhSach');
 	Route::get('suapb','PhongBanController@getSua');
 	Route::post('suapb','PhongBanController@postSua');
 	Route::get('xoapb','PhongBanController@getXoa');
+
+	Route::get('luongadmin', 'LuongController@getLuongAdmin');
+	Route::get('themluong', 'LuongController@getThem');
+	Route::post('themluong', 'LuongController@postThem');
+	Route::get('sualuong','LuongController@getSua');
+	Route::post('sualuong','LuongController@postSua');
+	Route::get('xoaluong','LuongController@getXoa');
 
 	Route::get('nguoidung', 'NVController@getDanhSachND');
 	Route::get('nhanvien', 'NVController@getDanhSach');

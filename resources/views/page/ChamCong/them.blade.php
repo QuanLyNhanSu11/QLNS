@@ -7,7 +7,7 @@
 			<div class="row">
 				<form class="form-horizontal" action="themcc" method="post">
 					{{ csrf_field() }}
-					<legend style="color: red; font-size: 25px; text-align: center;">Thêm Bảng Chấm Công </legend>				
+					<legend style="color: red; font-size: 35px; text-align: center;">Thêm Bảng Chấm Công </legend>				
 				<row class="col-md-12">					
 					<div class="form-group col-md-3">
 						<label class="col-xs-5 control-label">Chọn Ca Làm Việc</label>

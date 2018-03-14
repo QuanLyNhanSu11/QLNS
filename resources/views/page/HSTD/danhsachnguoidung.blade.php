@@ -8,7 +8,7 @@
       <div class="col-lg-2 col-xs-12">        	
 				<div class="box box-block bg-white">
 					<div>
-						<h5 style="color: red; font-size: 25px">Hồ Sơ Tuyển Dụng</h5>
+						<h5 style="color: red; font-size: 35px; text-align: center;">Hồ Sơ Tuyển Dụng</h5>
 						<a type="submit" href="themhs" class="btn btn-primary">Thêm</a>
 					</div>
 					<div class="table-responsive">

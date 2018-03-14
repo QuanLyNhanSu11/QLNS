@@ -17,9 +17,10 @@ class NVController extends Controller
         return view('page.NhanVien.danhsachnguoidung',['nhanvien'=>$nhanvien]);
     }
     public function getThem(){
-        $luong = luong::all();
+        $banluong = new luong();
+        $luong = $banluong->xuatluong();
         $phongban = phongban::all();
-        $chucvu = chucvu::all();
+        $chucvu = chucvu::all(); 
         return view('page.NhanVien.them',['luong' =>$luong,'phongban' =>$phongban, 'chucvu' => $chucvu]);
     }
     public function postThem(Request $request){
@@ -54,11 +55,11 @@ class NVController extends Controller
     public function getSua(Request $request){
         $luong = luong::all();
         $phongban = phongban::all();
-        $chucvu = chucvu::all();
-
-        $nhanvien = nhanvien::where('MaNhanVien','1')->get();
+        $chucvu = chucvu::all(); 
+ 
+        $nhanvien = nhanvien::where('MaNhanVien','=',$request->manv)->get();
         
-        return view('page.NhanVien.sua',['luong' =>$luong,'phongban' =>$phongban, 'chucvu' => $chucvu,'nhanvien' =>$nhanvien]);
+        return view('page.NhanVien.sua',['luong' =>$luong,'phongban' =>$phongban, 'chucvu' => $chucvu,'nhanvien' =>$nhanvien[0]]);
     }
     public function postSua(Request $request){
         
@@ -68,7 +69,16 @@ class NVController extends Controller
         return redirect('nhanvien');
     }
     public function getXoa(Request $request){
+
+
         $nhanvien = nhanvien::where('MaNhanVien',$request->manv)->delete();
+
+        $biendem = new nhanvien();
+        $dem = $biendem->dem();
+        if(count($dem) != 0 ){
+            return view('page.Loi',['dem' => $dem]);
+        }
         return redirect()->back();
     }
 }
+ 

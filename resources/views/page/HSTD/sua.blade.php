@@ -7,7 +7,7 @@
 			<div class="row"> 
 				<form class="form-horizontal" action="suahs" method="post">
 					{{ csrf_field() }}
-					<legend style="color: red; font-size: 25px">Sửa Hồ Sơ Tuyển Dụng</legend>	
+					<legend style="color: red; font-size: 35px; text-align: center;">Sửa Hồ Sơ Tuyển Dụng</legend>	
 					<div class="form-group col-md-6">
 						<label class="col-xs-4 control-label">Mã Hồ Sơ</label>
 						<div class="col-xs-5 selectContainer">

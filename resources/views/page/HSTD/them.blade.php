@@ -7,7 +7,7 @@
 			<div class="row">
 				<form class="form-horizontal" action="themhs" method="POST">
 					{{ csrf_field() }}
-					<legend style="color: red; font-size: 35px; text-align: center;">Hồ Sơ Tuyển Dụng</legend>	
+					<legend style="color: red; font-size: 35px; text-align: center; ">Hồ Sơ Tuyển Dụng</legend>	
 					<div class="form-group col-md-6">
 						<label class="col-xs-4 control-label">Họ Tên</label>
 				        <div class="col-xs-5">
@@ -130,9 +130,21 @@
 				        <div class="col-xs-5">
 				            <input type="text" class="form-control" name="KinhNghiem" />
 				        </div>
-					</div>		 
-					<button type="submit" class="btn btn-primary">Thêm Hồ Sơ</button>
-					<button type="submit" class="btn btn-primary">Hủy</button>
+					</div>
+					<div class="col-md-12">
+						<div class="col-xs-4">
+							
+						</div>
+						<div class="col-xs-4">
+							<button type="submit" class="btn btn-primary">Thêm Hồ Sơ</button>
+							<button type="submit" class="btn btn-warning">Hủy</button>
+						</div>
+						<div class="col-xs-4">
+							
+						</div>
+						
+					</div>	 
+					
 				</form>			
 		</div>
 	</div>

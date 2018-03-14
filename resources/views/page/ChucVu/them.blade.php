@@ -21,7 +21,7 @@
 			@endif
 				<form action="themcv" method="POST">
 					{{ csrf_field() }}
-					<legend style="color: red; font-size: 25px">Thêm Chức Vụ </legend>
+					<legend style="color: red; font-size: 35px; text-align: center;">Thêm Chức Vụ </legend>
 					
 					<div class="form-group">
 						<label>Tên Chức Vụ</label>

@@ -8,8 +8,7 @@
         <div class="col-lg-12 col-xs-12">
 		<div class="box box-block bg-white">
 			<div>
-				<h5 style="color: red; font-size: 25px">Lương Nhân Viên
-				</h5>
+				<h5 style="color: red; font-size: 35px; ">Lương Nhân Viên</h5>
 						<form action="#" method="get" class="form-inline">
 					        <div class="input-group">
 					          <input type="text" name="" class="form-control" placeholder="Search...">
@@ -17,9 +16,9 @@
 					                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
 					                </button>
 					          </span>
-					        </div>					        
-					    </form>
-					    <input class="btn btn-primary" type="submit" name="xuatfile" value="Xuất File">
+					        </div>	
+					        <input class="btn btn-primary" type="submit" name="xuatfile" value="Xuất File">				        
+					    </form>					    
 				
 			</div>
 			<table class="table table-stripped table-bordered table-hover">
@@ -27,6 +26,7 @@
 					<tr align="center">
 						<th>Mã Lương</th>
 						<th>Tên Nhân Viên</th>
+						<th>Tên Phòng Ban</th>
 						<th>Lương Cơ Bản</th>
 						<th>Tổng Lương</th>
 						<th>Tháng</th>
@@ -39,13 +39,14 @@
 					<tr>
 						<td>{{ $l->MaLuong }}</td>
 						<td>{{ $l->HoTen }}</td>
+						<td>{{ $l->TenPB }}</td>
 						<td>{{ $l->LuongCoBan }}</td>
 						<td>{{ $l->TongLuong }}</td>
 						<td>{{ $l->Thang }}</td>
 						<td>{{ $l->Nam }}</td>
 						<td>
-							<a href="sual?mal={{ $l->MaLuong }}" data-toggle="modal" data-whatever="@mdo"><span class="fa fa-pencil"></span></a>&nbsp;
-							<a href="xoal?mal={{ $l->MaLuong }}"><span class="fa fa-trash"></span></a>							
+							<a href="sualuong?maluong={{ $l->MaLuong }}" data-toggle="modal" data-whatever="@mdo"><span class="fa fa-pencil"></span></a>&nbsp;
+							<a href="xoaluong?maluong={{ $l->MaLuong }}"><span class="fa fa-trash"></span></a>							
 						</td>
 					</tr>
 					@endforeach

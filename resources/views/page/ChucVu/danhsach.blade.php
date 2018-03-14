@@ -7,7 +7,7 @@
         <div class="col-lg-12 col-xs-12">
 		<div class="box box-block bg-white">
 			<div>
-				<h5 style="color: red; font-size: 25px">Danh sách chức vụ</h5>
+				<h5 style="color: red; font-size: 35px; text-align: center;">Danh sách chức vụ</h5>
 				<div class="form-inline">
 				<form action="timkiem" method="post" class="form-inline">
 					<input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -17,9 +17,10 @@
 			                <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
 			                </button>
 			          </span>
-			        </div>			        
+			        </div>	
+			        <a type="submit" href="themcv" class="btn btn-primary">Thêm</a>		        
 			    </form>
-			    <a type="submit" href="themcv" class="btn btn-primary">Thêm</a>
+			    
 				</div>
 			</div>
 			<table class="table table-stripped table-bordered table-hover">
